@@ -18,7 +18,12 @@ func Multiply(nums []int) int {
 	return result
 }
 
-// Difference returns the amount of the second int subracted from the first int
+// Difference returns the amount of the second int subtracted from the first int
 func Difference(x, y int) int {
 	return x - y
+}
+
+// Divide returns the quotient of x divided by y
+func Divide(x, y int) int {
+	return x / y
 }
