@@ -23,7 +23,7 @@ func Difference(x, y int) int {
 	return x - y
 }
 
-// Divide returns the quotient of x divided by y
-func Divide(x, y int) int {
-	return x / y
+// Square returns the number passed multiplied by itself
+func Square(x int) int {
+	return x * x
 }
