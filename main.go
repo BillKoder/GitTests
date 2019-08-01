@@ -12,5 +12,5 @@ func main() {
 	fmt.Println((mathematics.Sum([]int{1, 2, 3, 4})))
 	fmt.Println(mathematics.Multiply([]int{2, 2}))
 	fmt.Println(mathematics.Difference(5, 3))
-	fmt.Println(mathematics.Square(10))
+	fmt.Println(mathematics.Divide(10, 2))
 }
